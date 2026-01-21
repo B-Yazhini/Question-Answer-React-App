@@ -147,6 +147,7 @@
 /* TIMER WARNING - last 10 seconds */
 .timer-warning {
   color: #f87171; /* red text */
-  background: rgba(239, 68, 68, 0.2); /* light red background */
+  background: rgba(239, 68, 68, 0.2); 
   font-weight: 700;
 }
+
