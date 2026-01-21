@@ -1,0 +1,152 @@
+/* Page Background */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e6e0ff, #dcd7ff);
+  padding: 20px;
+}
+
+/* App Title */
+.app-title {
+  text-align: center;
+  color: #a855f7;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.app-subtitle {
+  text-align: center;
+  color: #9ca3af;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+/* Quiz Card */
+.quiz-container {
+  width: 100%;
+  max-width: 520px;
+  background-color: #0f172a;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  color: #e5e7eb;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* Progress */
+.quiz-progress {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-bottom: 6px;
+}
+
+.top-progress {
+  height: 6px;
+  width: 100%;
+  background-color: #1f2933;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+.top-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #a855f7, #6366f1);
+  transition: width 0.3s ease;
+}
+
+/* Question */
+.quiz-question {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Timer */
+/* Timer inside quiz card */
+.quiz-timer {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #c7d2fe;
+  background: rgba(99, 102, 241, 0.2); /* light purple background */
+  padding: 6px 12px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 12px;
+}
+
+/* Options */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-button {
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.option-button:hover {
+  transform: scale(1.02);
+  opacity: 0.95;
+}
+
+.option-button.correct {
+  background: linear-gradient(90deg, #16a34a, #22c55e);
+}
+
+.option-button.wrong {
+  background: linear-gradient(90deg, #dc2626, #ef4444);
+}
+
+/* Next Button */
+.quiz-button {
+  margin-top: 18px;
+  padding: 12px;
+  width: 100%;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(90deg, #ec4899, #f472b6); /* baby pink */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+/* Completed */
+.quiz-completed {
+  color: #a855f7;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* TIMER INSIDE CARD */
+.quiz-timer {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #c7d2fe;
+  background: rgba(99, 102, 241, 0.2);
+  padding: 6px 12px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 12px;
+  transition: color 0.3s, background 0.3s;
+}
+
+/* TIMER WARNING - last 10 seconds */
+.timer-warning {
+  color: #f87171; /* red text */
+  background: rgba(239, 68, 68, 0.2); /* light red background */
+  font-weight: 700;
+}
